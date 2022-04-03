@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>Loan Origination</title>
+    <title>Loan Monitor</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -45,44 +45,28 @@
       </nav>
 
       <div class="container"><br>
-          <div class="text-center">
-            <form class="shadow p-3" method="POST" action="#" autocomplete="off" >
-                <h3>S-Bob App<br>
-                    Trust Machine Loan Origination
-                    </h3><hr>
-              
-              <div class="form-floating mb-3">
-                <input type="text" name="name" class="form-control rounded-pill" id="name" inputmode="numeric" maxlength="6" placeholder="first_guarantor" required>
-                <label for="name">Full Name</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="text" name="location" class="form-control rounded-pill" id="location" inputmode="numeric" maxlength="6" placeholder="first_guarantor" required>
-                <label for="location">Location</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="text" name="industry" class="form-control rounded-pill" id="industry" inputmode="numeric" maxlength="6" placeholder="first_guarantor" required>
-                <label for="industry">Industry</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="number" name="income" class="form-control rounded-pill" id="income" placeholder="income" required>
-                <label for="rate">Current Houshold Income</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="number" name="revenue" class="form-control rounded-pill" placeholder="Revenue" required>
-                <label for="revenue">Expected Revenue</label>
-              </div>
-              <div class="form-floating mb-3">
-                <input type="number" name="people" class="form-control rounded-pill" placeholder="Number of people" required>
-                <label for="people">Number of People in Household </label>
-              </div>
-              
-              <hr>    
-              <br>
-              <div class="text-center">
-                <button type="submit" class="btn btn-success col-8 rounded-pill">Apply for Loan</button>
-              </div>
-            </form>
-          </div><br><br><br>
+        <div class="text-center">
+            <div class="card">
+                <h3>S-Bob App<br>Trust Machine Loan Monitoring</h3><hr>
+                <p>Amount loaned : KES 10,000 </p>
+                <p>Interest Rate : 3.0 % interest</p>
+                <p>Amount owed : KES 9,0000</p>
+                <p>Progress :</p>
+                <div class="px-2">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                    </div>
+                </div><br>
+                <div class="text-center">
+                    <button type="button" class="btn btn-success col-8 rounded-pill">Make a Payment via S-Bob</button>
+                </div><br>
+                <div class="text-center">
+                    <button type="button" class="btn btn-success col-8 rounded-pill">Payment History</button>
+                </div><br>
+                
+            </div>
+        </div>
+          <br><br><br>
       </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
